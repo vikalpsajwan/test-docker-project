@@ -1,0 +1,3 @@
+#!/bin/bash
+
+date -u > /var/www/datafile.txt
