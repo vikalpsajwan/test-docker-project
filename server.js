@@ -6,4 +6,4 @@ http.createServer(function (req, res) {
   const data = fs.readFileSync('/var/www/datafile.txt', 'utf8')
   res.write('File last updated at ' + data); //write a response to the client
   res.end(); //end the response
-}).listen(8000); //the server object listens on port 8080
+}).listen(80); //the server object listens on port 8080
